@@ -1,6 +1,20 @@
-/* .headerStyle {
-  background-color: blue;
-} */
 h1 {
-  background-color: blue;
+  background-color: lime;
+}
+#next {
+  background-color: green;
+}
+.headerStyle {
+  background-color: brown;
+  color: white;
+}
+
+h1 {
+  color: black;
+}
+#test {
+  color: blue;
+}
+.fontStyle {
+  color: pink;
 }

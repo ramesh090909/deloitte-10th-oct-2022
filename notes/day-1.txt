@@ -55,10 +55,17 @@ CSS: Cascading style sheet
 
 if you use inline, outline, external styles together on an element?
 	a. browser (less preference)
-	b. outline
-	c. external stylesheet
+	b. outline/external stylesheet
 	d. inline (most preference)
 	
+outline	 or external css
+------------------------------------
+element selector:  browser > external > outline > inline
+id selector:  browser > external > outline > inline
+class selector:  browser > outline > external > inline
+
+selector priroty:
+element selector > class selector> id selector
 
 
 
