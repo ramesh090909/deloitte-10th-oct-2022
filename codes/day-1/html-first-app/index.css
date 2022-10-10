@@ -1,0 +1,31 @@
+/*
+        element selector: mention element name
+        element-name{
+            style-property-name:proprty-value;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        */
+/*
+        id selector: mention element id value
+        #element-id{
+            style-property-name:proprty-value;
+        }*/
+#firstHeader {
+  text-align: center;
+}
+
+/* #secondHeader {
+            text-align: center;
+        } */
+
+/*creating a group of style properties, without mentioning which element it is going to be applied to: class selector
+        .class-name{
+            property-name:property-value
+        }*/
+.headerStyle {
+  text-align: center;
+  background-color: lime;
+}

@@ -9,3 +9,56 @@ deployment + development purpose
 
 Application Development Server (App Dev Server):
 Live Server, lite server, webpack dev server etc.
+
+HTML tags:
+tags can contain
+		 - text 
+		 - other tag(s)
+		 - mix of both
+
+tags can be empty too, that means contains nothing
+they will not have any separate closing tag, since there is no content
+
+element attribute:
+	name-value pair
+	height=100
+	id='<id>'
+	class="<css-class>"
+
+
+CSS: Cascading style sheet
+	a. inline styling
+	b. outline styling (embeded in the page using style tag)
+		i. element selector: 
+		syntax:
+			element-name{
+            style-property-name:proprty-value;
+        }
+		all instances of the same element will get the same style
+
+		ii. id selector: mention element id value
+        #element-id{
+            style-property-name:proprty-value;
+        }
+		only the element with the mentioned will get this style
+
+		iii. creating a group of style properties, without mentioning which element it is going to be applied to: class selector
+        .class-name{
+            property-name:property-value
+        }
+
+	c. external stylesheet: separate CSS file with styles (without style tag)
+			i. element selector
+			ii. id selector
+			iii. class selector
+
+
+if you use inline, outline, external styles together on an element?
+	a. browser (less preference)
+	b. outline
+	c. external stylesheet
+	d. inline (most preference)
+	
+
+
+
