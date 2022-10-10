@@ -1,0 +1,26 @@
+.headerStyle {
+  background-color: burlywood;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+table {
+  margin: 50px;
+  border: 1px;
+  border-style: hidden;
+  border-radius: 5px;
+}
+img {
+  width: 100px;
+  margin: 2px;
+}
+table > thead > tr > th {
+  width: 150px;
+}
+table > tbody > tr > td {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+#tblDiv {
+  margin: auto;
+  margin-top: 50px;
+}

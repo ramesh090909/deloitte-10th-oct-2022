@@ -67,5 +67,24 @@ class selector:  browser > outline > external > inline
 selector priroty:
 element selector > class selector> id selector
 
+HTML block elements:
+	p, div, nav, table, 
+	HTML5: address, article, aside, section
+
+
+inline elements:
+	span, anchor, small, strong, .....
+
+block vs inline elements
+	block: causes a line break
+	inline: do not cause any line break
+
+why block elements?
+	
+	
+
+
+	
+
 
 
