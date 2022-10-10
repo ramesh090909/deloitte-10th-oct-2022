@@ -1,1 +1,11 @@
-welcome to HTML
+web server:
+receives request and processes it and sends the response back to the user
+
+IIS (windows): Internet Information Services
+Tomcat (Apache)
+
+deployment + development purpose
+
+
+Application Development Server (App Dev Server):
+Live Server, lite server, webpack dev server etc.
