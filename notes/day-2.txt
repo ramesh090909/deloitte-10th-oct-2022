@@ -1,0 +1,80 @@
+1. accept two numbers from user
+2. add those two numbers
+3. store the resultant value
+4. print the value
+
+
+0 and 1
+
+0000
+001
+010
+011
+100
+101
+110
+111
+
+2^3 => 8
+
+10
+
+
+a function: 
+	block of code (instruction)
+
+void add(int a,int b)
+{	
+	int addRes = a+b;
+	console.writeline(addRes)
+}
+
+int subtract(int a,int b)
+{	
+	int subRes = a-b;
+	return subRes;
+}
+
+void call(){
+}
+
+call()
+//call(10,20) <--incorrect
+
+void main(){
+add(10,20);//calling a block and passing "arguments"
+add(30,40);
+int res = subtract(10,5)
+}
+
+
+
+JavaScript:
+No strict data typing (only var keyword to declare a variable)
+in JS these are the following types of data that we use------------
+	a. number (both non-fractional and fractional)
+	var x = 10
+	var y = 12.34
+
+	b. string
+	var name = 'JavaScript' or "JavaScript"
+
+	c. boolean
+	var isTrue = false or true
+
+	d. object
+	var anilObj = {
+		//value properties
+		name:'anil',
+		id:1,
+		salary:1000,
+		//functional property
+		print:function(){
+			return this.name+' '+this.id+' '+this.salary
+		}
+	}
+
+
+
+
+
