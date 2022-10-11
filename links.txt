@@ -2,3 +2,7 @@ SASS and LESS:
 https://www.keycdn.com/blog/sass-vs-less#:~:text=Sass%20and%20Less%20are%20both,css%20file%20extension%20to%20.
 
 SASS website: https://sass-lang.com/
+
+
+web standards:
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards#:~:text=The%20W3C%20is%20the%20best,as%20WebGL)%2C%20and%20others.
