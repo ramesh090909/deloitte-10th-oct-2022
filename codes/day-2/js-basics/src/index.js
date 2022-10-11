@@ -1,5 +1,6 @@
+//JIT: Just-in-time
 function call() {
-    alert('called')
+    window.alert('called')
 }
 
 //function declaration
