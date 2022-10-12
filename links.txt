@@ -22,3 +22,6 @@ https://developers.google.com/search/docs/fundamentals/seo-starter-guide
 
 what is http-quiv?
 https://www.w3schools.com/tags/att_meta_http_equiv.asp#:~:text=The%20http%2Dequiv%20attribute%20provides,simulate%20an%20HTTP%20response%20header.
+
+validation: (using jquery)
+https://phppot.com/jquery/enable-disable-submit-button-based-on-validation/
