@@ -1,0 +1,74 @@
+1. HTML [designing]
+2. CSS [styling]
+3. JavaScript [scripting language]
+4. DOM [DOM library is part of browser and the definition of the following objects and methods are supplied to JS engine when JS engine compiles and executes the JS code]
+		=> document object and getElementById method
+		=> window object and alert method
+		=> console object and log, warn, info, error methods
+
+5. web protocols: HTTP, FTP, HTTPS (HTTP with SSL)
+
+
+HTML:
+	block level and inline elements
+
+CSS:
+	a. inline styling
+	b. outline but in-file styling using style tag	
+	c. external stylesheet and linking the same using <link> tag with HTML
+
+
+JavaScript:
+	a. write JS code inside HTML file using <script> tag
+	b. write JS code in separate JS file and link the same using <script src='path-of-js-file'></script> tag with HTML file
+
+DOM:
+	DOM manipulation code is written in JavaScript code, whereas the definition of the DOM objects and their methods are supplied to JS engine when JS engine compiles and executes the JS code
+
+Roadmap:
+-----------------------------
+HTML and HTML5 
+CSS3 and bootstrap
+JS and DOM
+jQuery
+Node JS and NPM
+
+Web standards and Best practices
+	- responsive
+	- uniform across the devices
+	- design should be meaningful
+
+
+HTML5:
+	a. DOCTYPE
+	b. meta tag
+		i. with charset attribute
+		Note: the meta tag with charset attribute should be the first tag in <head> element
+		Extra info: what is encoding? different types of encoding format
+	  referr: Javatpoint
+		ii. with description 
+		iii. with viewport
+		questions: what does it mean by width=device-width?
+						 what does it mean by initial-scale=1.0?
+		Best practices:
+		1. Do NOT use large fixed width elements - For example, if an image is displayed at a width wider than the viewport it can cause the viewport to scroll horizontally. Remember to adjust this content to fit within the width of the viewport.
+
+2. Do NOT let the content rely on a particular viewport width to render well - Since screen dimensions and width in CSS pixels vary widely between devices, content should not rely on a particular viewport width to render well.
+
+3. Use CSS media queries to apply different styling for small and large screens - Setting large absolute CSS widths for page elements will cause the element to be too wide for the viewport on a smaller device. Instead, consider using relative width values, such as width: 100%. Also, be careful of using large absolute positioning values. It may cause the element to fall outside the viewport on small devices.
+
+
+	iv. with keywords:
+	The keyword value is also used to provide keywords for a search engine, but it may ignore by browser due to spammers.
+
+	Note: what is SEO?
+	SEO stands for “search engine optimization.” In simple terms, it means the process of improving your site to increase its visibility when people search for products or services related to your business in Google, Bing, and other search engines. The better visibility your pages have in search results, the more likely you are to garner attention and attract prospective and existing customers to your business.
+
+	v. with http-equiv:
+	<meta http-equiv="content-security-policy|content-type|default-style|refresh">
+	q: what is http-quiv?
+	q: what are possible values of http-equiv attribute as well as corresponding content attribute values?
+
+
+
+
