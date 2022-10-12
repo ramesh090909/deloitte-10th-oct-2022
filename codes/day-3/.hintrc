@@ -3,11 +3,6 @@
     "development"
   ],
   "hints": {
-    "axe/time-and-media": [
-      "default",
-      {
-        "meta-refresh": "off"
-      }
-    ]
+    "axe/time-and-media": "off"
   }
 }
