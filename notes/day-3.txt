@@ -80,6 +80,114 @@ Note: If this (target) attribute is specified, this element (base) must come bef
 
 
 
+HTML elements:
+	form and input elements
+
+<form action="" method="POST">
+	<input type='text'/>
+	<input type='password'/>
+	<input type='radio'/>
+	<input type='check'/>
+	<input type='date'/>
+	<select>
+	<input type='submit'/>
+	..........................
+</form>
+
+
+	name, date of birth, emailid, mobile, landline
+	10
+	10+2
+	college
+	etc.
+
+
+HTTP
+	GET
+	POST
+	PUT
+	DELETE
+	PATCH
+	.........
+
+
+JS:
+	control flow statement: controls the execution of the code
+
+	if(condition){
+		//code
+	}else{
+		//code
+	}
+
+	var x = 5
+
+	//executes the code after it checks the condition
+	//execution will take place if the condition is satisfied and will be executed repeatedly as long as the condition is satisfied
+	while(condition){
+		//code
+	}
+
+	while(x > 0){
+		console.log(x)
+		x = x - 1
+	}
+
+	//first executes the code and then checks the condition
+	//at least one time execution will take place
+	do{
+		console.log(x)
+		x=x-1
+	}while(x>0)
+
+
+	operators:
+	+, -, *, /, % => arithmatic operator
+	var a = 10 
+	var b = 2
+	a+b (12), a-b (8), a/b (5), a*b(20), a%b (0)
+
+	=, +=, -=, /=, *= => assignment operator
+	var a = 10
+	a+= 5 (a = a+5)	
+	a-= 5 (a = a-5)
+	a/= 5 (a = a/5)
+	a*= 5 (a = a*5)
+
+	++, --: incremental and decremental operator (pre and post)
+	var a = 10
+
+	//post
+	//a++ (a = a+1)
+	clg(a++)
+	a-- (a = a-1)
+
+	pre:
+	++a (a = a+1)
+	--a (a = a-1)
+
+	equality operator: ==, ===, !=, !==
+	equality
+	a == b (whether value of a is equal to value of b or not)
+	strict equality
+	a === b (whether value as well as the data type of a is equal to b or not)
+
+	relational operator/comparison operator
+	>, <, >=, <=, etc.
+	var a = 10
+	var b = 20
+	if(a>b){//code}
+	if(a<b){}
+	if(a>=b){}
+	if(a<=b){}
+
+	logical operator:
+	AND (&&) and OR (||) and NOT (!)
+
+
+
+
+
 
 
 

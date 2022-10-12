@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <base href="/">
+
+    <title>Validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <form method="post" action="">
+        <div>
+            <label for="username">Name:&nbsp;</label>
+            <input type="text" name="username" id="txtUserName" placeholder="enter username here" onblur="validate()" />
+            &nbsp;
+            <span id="spanUserName"></span>
+        </div>
+        <div>
+            <label for="password">Name:&nbsp;</label>
+            <input type="text" name="password" id="txtPassword" placeholder="enter password here" onblur="validate()" />
+            <span id="spanPassword"></span>
+        </div>
+        <div>
+            <input type="submit" value="Login" id="btnSubmit" disabled />
+        </div>
+    </form>
+    <script src="./index.js"></script>
+</body>
+
+</html>
