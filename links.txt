@@ -25,3 +25,7 @@ https://www.w3schools.com/tags/att_meta_http_equiv.asp#:~:text=The%20http%2Dequi
 
 validation: (using jquery)
 https://phppot.com/jquery/enable-disable-submit-button-based-on-validation/
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> => wyt this meta tag?
+https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do

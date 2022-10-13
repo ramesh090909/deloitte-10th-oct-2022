@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <style>
+        dd {
+            font-size: small;
+        }
+
+        dl>div {
+            border: 1px solid blanchedalmond;
+            border-radius: 2px;
+            margin-bottom: 10px;
+            margin-right: 300px;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>List of Phones:</h2>
+    <br>
+    <ul style="list-style-type: square;">
+        <li>IPhone14</li>
+        <li>Samsung</li>
+        <li>OnePlus</li>
+    </ul>
+    <br>
+    <h2>List of Books:</h2>
+    <ol style="list-style-type: lower-roman;">
+        <li>Pillars of the Earth</li>
+        <li>House of Dragons</li>
+        <li>The Alchemist</li>
+    </ol>
+    <h2>List of Technologies</h2>
+    <dl>
+        <div>
+            <dt>
+                <a href="https://www.w3schools.com/html/">HTML</a>
+            </dt>
+            <dd>
+                Hyper Text Mark up language
+            </dd>
+        </div>
+        <div>
+            <dt>
+                <a href="https://www.w3schools.com/css/">CSS</a>
+            </dt>
+            <dd>
+                Cascading Stylesheet
+            </dd>
+        </div>
+        <div>
+            <dt>
+                <a href="https://www.w3schools.com/js/">JS</a>
+            </dt>
+            <dd>
+                JavaScript
+            </dd>
+        </div>
+    </dl>
+    <br>
+    <div>
+        <label for="laptops">
+            Select an Item:&nbsp;
+        </label>
+        <select name="laptops" id="ddlLaptops" title="List of Laptops" onchange="itemSelected()" size="2" multiple>
+            <option value="0" selected disabled>---select---</option>
+            <option value="1">Hp Probook</option>
+            <option value="2">Lenovo Ideapad</option>
+            <option value="3">Dell XPS 15</option>
+        </select>
+    </div>
+    <div>
+        You have selected:<span>NA</span>
+    </div>
+    <script>
+        //array is a collection of items (values)
+        var numbers = [10, 20, 30, 40, 50]
+        //[] => indexer
+        //[i] => i -> index number            
+        console.log(numbers[3])
+        numbers[2] = 300
+        console.log(numbers[2])
+        function itemSelected() {
+            // var all = document.getElementsByName('laptops')
+            // var selectElement = all[0]
+            var selectElement = document.getElementById('ddlLaptops')
+            //fetch the index value of the selected option
+            var selectedIndex = selectElement.selectedIndex
+            //now get the selected option from the collection of options, by passing the selected index value to the options collection of the select element
+            var optionsArray = selectElement.options
+            var optionSelected = optionsArray[selectedIndex]
+            console.log(optionSelected)
+            //dispay the text as well as the value of the selected option by using the 'text' and 'value' property of the corresponding option object
+            console.log(optionSelected.text)
+            console.log(optionSelected.value)
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+1. HEAD element of HTML
+2. Validation - HTML + JS
+3. form element and input elements
+
+lists and dropdown list
