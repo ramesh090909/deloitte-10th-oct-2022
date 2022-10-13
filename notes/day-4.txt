@@ -3,3 +3,10 @@
 3. form element and input elements
 
 lists and dropdown list
+checkboxes and radio buttons
+
+font-family 					=> fontFamily
+font-family:'Monospace' elementObj.style.fontFamily='Monospace'
+
+background-color 				=> backgroundColor
+font-family:blue         elementObj.style.backgroundColor='blue'

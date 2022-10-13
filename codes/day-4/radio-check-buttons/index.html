@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+
+<body>
+    <fieldset style="text-align: center;" id="radioSet">
+        <legend>Colors:</legend>
+        <input type="radio" name="colorGroup" id="radioBlue" onchange="paintBody()" checked />&nbsp;Blue
+        &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="colorGroup" id="radioGreen" onchange="paintBody()" />&nbsp;Green
+        &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="colorGroup" id="radioPink" onchange="paintBody()" />&nbsp;Pink
+    </fieldset>
+
+    <br>
+
+    <fieldset style="text-align: center;" id="checkSet">
+        <legend>Price Range:</legend>
+        <input type="checkbox" name="check1000" id="check1000" onchange="rangeSelected()" />&nbsp;Between 1 and
+        1000
+        &nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="check5000" id="check5000" onchange="rangeSelected()" />&nbsp;Between 1000 and
+        5000
+        &nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="check10000" id="check10000" onchange="rangeSelected()" />&nbsp;Between 5000 and
+        10000
+    </fieldset>
+    <script>
+        function rangeSelected() {
+            console.log('selected')
+        }
+        function paintBody() {
+            var all = document.getElementsByName('colorGroup')
+            var fieldSetObj = document.getElementById('radioSet')
+            if (all[0].checked) {
+                fieldSetObj.setAttribute('style', 'background-color:yellow;text-align:center')
+                fieldSetObj.style.fontFamily = 'Tahoma'
+            }
+            if (all[1].checked) {
+                fieldSetObj.setAttribute('style', "background-color:green;text-align:center")
+                fieldSetObj.style.fontFamily = 'Segoe UI'
+            }
+            if (all[2].checked) {
+                //overwrites existing style attribute
+                fieldSetObj.setAttribute('style', "background-color:pink;text-align:center")
+                //appends a new css property and value in the existing style attribute
+                fieldSetObj.style.fontFamily = 'Monospace'
+            }
+        }
+    </script>
+</body>
+
+</html>
