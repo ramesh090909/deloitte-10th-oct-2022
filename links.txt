@@ -35,3 +35,9 @@ https://www.w3schools.com/howto/howto_css_custom_checkbox.asp
 
 CSS layouts
 https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction
+
+flex layout:
+https://www.geeksforgeeks.org/introduction-to-css-flexbox/
+
+iframe:
+https://www.techtarget.com/whatis/definition/IFrame-Inline-Frame#:~:text=The%20most%20common%20use%20of,video%20or%20Google%20Maps%20content.
