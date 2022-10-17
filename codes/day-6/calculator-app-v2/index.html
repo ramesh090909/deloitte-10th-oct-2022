@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updated Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div>
+        <menu>
+            <label for="radioAdd">Add:&nbsp;</label>
+            <input type="radio" name="radioCalculator" id="radioAdd" onchange="calculate(1)">
+
+            <label for="radioSubtract">Subtract:&nbsp;</label>
+            <input type="radio" name="radioCalculator" id="radioSubtract" onchange="calculate(2)">
+
+            <label for="radioMultiply">Multiply:&nbsp;</label>
+            <input type="radio" name="radioCalculator" id="radioMultiply" onchange="calculate(3)">
+
+            <label for="radioDivide">Divide:&nbsp;</label>
+            <input type="radio" name="radioCalculator" id="radioDivide" onchange="calculate(4)">
+        </menu>
+        <br>
+        <form>
+            <div>
+                <label for="txtFirst">First Value:&nbsp;&nbsp;</label>
+                <input type="text" id="txtFirst" name="firstInput">
+            </div>
+            <div>
+                <label for="txtSecond">First Value:&nbsp;&nbsp;</label>
+                <input type="text" id="txtSecond" name="secondInput">
+            </div>
+        </form>
+        <div id="divResult">
+            Result:&nbsp; <span id="spanResult"></span>
+        </div>
+    </div>
+</body>
+
+</html>
