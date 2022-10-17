@@ -1,0 +1,70 @@
+1. JS Introduction
+		JS based frameworks
+		a. client-side frameworks: React JS, Angular, Vue, etc.
+		b. server-side frameworks: Node JS, Nest JS, Express JS etc.
+
+write code for the events fo the HTML controls
+provide client-side validation
+
+jQuery was introduced => JS library
+2009 -> Node js was invented by Ryan Dahl
+
+characterestics:
+	a. object-based language
+	b. dynamic language
+	c. loosely typed language (no strict typing - no data types)
+	d. no compile time checking
+
+JS engine (s/w) which interprets and execute JS
+
+	- available with every browser
+			i. V8 (chrome)
+			ii. Spidermonkey (firefox)
+			iii. JS core (safari)
+
+	- available without browser (separately)
+		- Node JS
+
+Node JS:
+	it is a runtime for JS. 
+	It is built at the top of the JS engine (V8)
+	(when you run the Node JS application [node.exe], you are already running a JS engine, behind the scene)
+	it takes a/many JS files, and can execute them with the help of JS engine
+	Like browser, it also provides a library containing bulit-in objects and methods (such as console object and its log method, just like browser) 
+	** the browser and node js library have many similarities, but they are not 100% same
+
+Process: whenever an application you run, from the system's RAM, some amount of memory is allocated for the application related data storage. This is known as process (the memory inside which the application runs).
+
+
+Editors:
+	VS code, sublime text, atom, webstorm, notepad, notepad++, Visual Studio, Eclipse and many others
+
+write JS code:
+	browser environment:
+	a. using script tag in HTML file itself (not prescribable)
+	b. write in separate JS file and link the same with HTML file
+
+	Node js:
+	write in JS file (no question of HTML)
+
+2. JS data types
+3. JS operators
+4. JS control flow statements
+	if
+	if...else
+	while
+	do...while
+
+	switch...case
+	for loop
+
+	for...of loop
+	for...in loop
+
+5. JS features
+	array
+	functions
+		- declaration
+		- expression
+
+6. DOM manipulation using JS
