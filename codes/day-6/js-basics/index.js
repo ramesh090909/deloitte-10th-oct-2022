@@ -25,3 +25,14 @@ function radioSelected(choice) {
             break;
     }
 }
+
+var a = 10
+var b = 20
+var c = 30
+
+if (a > b && a > c) {
+    console.log('a is greatest')
+} else if (b > c) {
+    console.log('b is greatest')
+} else
+    console.log('c is greatest')
