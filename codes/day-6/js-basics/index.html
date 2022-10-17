@@ -10,7 +10,19 @@
 </head>
 
 <body>
-
+    <fieldset>
+        <legend>Sort By:</legend>
+        <input type="radio" name="radioSort" id="radioName" onchange="radioSelected(1)">
+        &nbsp;Sort By Name
+        <input type="radio" name="radioSort" id="radioId" onchange="radioSelected(2)">
+        &nbsp;Sort By Id
+        <input type="radio" name="radioSort" id="radioDept" onchange="radioSelected(3)">
+        &nbsp;Sort By Dept
+        <input type="radio" name="radioSort" id="radioProject" onchange="radioSelected(4)">
+        &nbsp;Sort By Project
+        <input type="radio" name="radioSort" id="radioTeam" onchange="radioSelected(5)">
+        &nbsp;Sort By Team
+    </fieldset>
 </body>
 
 </html>
