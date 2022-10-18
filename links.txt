@@ -53,3 +53,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
 https://www.geeksforgeeks.org/html-iframes/#:~:text=The%20iframe%20in%20HTML%20stands,within%20the%20current%20HTML%20document.
 
 https://www.techtarget.com/whatis/definition/IFrame-Inline-Frame#:~:text=The%20most%20common%20use%20of,video%20or%20Google%20Maps%20content.
+
+
+JS execution:
+https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0
