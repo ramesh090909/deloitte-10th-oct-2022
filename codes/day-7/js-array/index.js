@@ -12,6 +12,10 @@ var obj = {
 
 console.log(obj.name) //using .(dot) operator
 console.log(obj['salary']) //using indexer []
+for (var propName in obj) {
+    var propValue = obj[propName]
+    console.log(propName + ':' + propValue)
+}
 
 //array
 //var arr = [1, 2, 5, 3, 4]
@@ -68,6 +72,9 @@ var arr = {
 // var n = arr[3]
 // var p = arr[8]
 
+//ECMAScript (ES), maintained by wwwc (world wide web consortium - w3c)
+
+//JS new version in 2015 (ES6), where this "destructuring" was introduced
 //coying array elements: destructuring
 //does not mutate the original array
 
@@ -77,4 +84,43 @@ console.log(m, n, p)
 
 var [, secondValue, thirdValue] = arr
 console.log(secondValue, thirdValue)
+
+//filter, sort, find, findIndex, map etc. are part of the Array
+var str = "I live in Bangalore, came to hyderabad"
+
+//length is a property of Array, which tells you about the number of elements present in the array
+
+// for (var index = 0; index < arr.length; index++) {
+//     var element = arr[index]
+//     console.log(element)
+// }
+
+
+
+var newArr = []
+for (var arrIndex = 0; arrIndex < 2; arrIndex++) {
+    //window.alert()
+    var data = window.prompt('enter value at newArr[' + arrIndex + ']: ', 0)
+    newArr[arrIndex] = Number(data)
+}
+/**
+ * newArr={ 
+ * 0: 10, 
+ * 1: 20
+ * }
+ */
+for (var i = 0; i < newArr.length; i++) {
+    console.log(newArr[i])
+}
+
+console.log('for...of')
+//for...of: used as read-only loop, which reads all elements from the array from the start till the end, without any stopping condition. this can't be used to add values into a collection.
+for (var iterator of arr) {
+    console.log(iterator)
+}
+//for...in loop is to iterate through an object/collection and picks up the properties (in case of an object) or index numbers (in case of an array)
+console.log('for...in')
+for (var indexNo in newArr) {
+    console.log(indexNo + ':' + newArr[indexNo])
+}
 
