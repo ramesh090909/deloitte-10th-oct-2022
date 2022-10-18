@@ -1,0 +1,41 @@
+1. functions:
+
+	a. declaration
+		you can call/invoke the function BEFORE the function has been written
+		you can call/invoke the function AFTER the function has been written
+
+	b. expression
+		you can't call/invoke the function BEFORE the function has been written
+		you can call/invoke the function AFTER the function has been written
+
+Note:
+	you can return the value from JS functions using return statement
+	you can return only one value from a function
+
+2. JS execution:
+	Every function in JS (even the global function**), when executed by JS engine, enters following two phases:
+	
+	a. preparation phase
+		during this time, in JS function, any variable and/or function DECLARATIONS are registered ONLY.
+		no function call is executed, no assignment (variable) takes place during this time/phase
+
+	b. execution phase
+		during this time, the JS function code is actually executed. function calls are executed, values are assigned to the variables etc. during this time.
+
+	when any JS function is executed, an object is created for that function execution, known as FEC (function execution context) object. Even for global function an object is created. 	The FEC object for the global function is known as GFEC (Global Function Execution Context).
+	every FEC is destroyed as soon as the function execution is over.
+	every FEC does have a property, known as, variable object (vo). this property stores an address of another object. THIS IS THE OBJECT WHERE FUNCTION AND VARIABLE DECALARTIONS OF THAT FUNCTION ARE REGISTERED/LOGGED DURING PREPARTION PHASE.
+
+	THIS REGISTRATION OF VARIABLE AND FUNCTION DECLARATIONS (ONLY) DURING THIS PREPARATION PHASE IS ACTUALLY KNOWN AS - HOISTING.
+	Note: function expressions are not hoisted, but function decalartions are.
+
+
+**3. GLOBAL FUNCTION IN JS:
+when you write any code in JS file, that code in JS file is wrapped inside an invisible function, known as Global Function (main function)
+when you load a JS file in browser or node js process/runtime, the global function is the first one to be executed by JS engine
+
+IMPORTANT NOTE:
+every variable/function decalartion is part of some function, 
+when you are decalaring the variable or function in JS file directly, even it is part of global function
+
+
