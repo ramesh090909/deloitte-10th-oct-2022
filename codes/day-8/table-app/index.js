@@ -1,26 +1,27 @@
-var employees = [
-    {
-        id: 1,
-        name: 'anil',
-        department: 'TRG',
-        project: 'CITA',
-        location: 'Bangalore'
-    },
-    {
-        id: 2,
-        name: 'sunil',
-        department: 'ORCHARD',
-        project: 'SAT',
-        location: 'Hyderabad'
-    },
-    {
-        id: 3,
-        name: 'ramesh',
-        department: 'EDU',
-        project: 'DTL',
-        location: 'Chennai'
-    }
-]
+// var employees = [
+//     {
+//         id: 1,
+//         name: 'anil',
+//         department: 'TRG',
+//         project: 'CITA',
+//         location: 'Bangalore'
+//     },
+//     {
+//         id: 2,
+//         name: 'sunil',
+//         department: 'ORCHARD',
+//         project: 'SAT',
+//         location: 'Hyderabad'
+//     },
+//     {
+//         id: 3,
+//         name: 'ramesh',
+//         department: 'EDU',
+//         project: 'DTL',
+//         location: 'Chennai'
+//     }
+// ]
+var employees = []
 
 var tableBodyElement = document.getElementById('tblBody')
 
