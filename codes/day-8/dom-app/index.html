@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM operations</title>
+</head>
+
+<body>
+    Enter Value:&nbsp;<input type="text" placeholder="enter value here" name="txtValue" id="txtValue"
+        onmouseover="changeBackColor(this)" onmousedown="changeFont(divMessage)">
+
+    &nbsp;&nbsp;
+    <button type="button" onclick="buttonClicked(txtValue.value)">Pass Data To Code</button>
+    <br><br>
+    <span id="spMessage">
+
+    </span>
+    <script src="./index.js"></script>
+    <style>
+        div {
+            font-size: small;
+        }
+    </style>
+</body>
+
+</html>
