@@ -9,6 +9,20 @@
 </head>
 
 <body>
+    <div>
+        <label for="txtValue">Enter Value:&nbsp;</label>
+        <input type="text" id="txtValue" name="txtValue" placeholder="enter value here" />
+        &nbsp;&nbsp;
+        <button type="button" id="btnAdd" onclick="addValueInArray()">Add Value</button>
+    </div>
+    <div>
+        <label for="ddlValues">Values:&nbsp;</label>
+        <select name="ddlValues" id="ddlValues" title="">
+            <option value="-1" selected disabled>--select--</option>
+        </select>
+        <br>
+        <button id="btnSort" type="button" onclick="sortNumbers()">Sort</button>
+    </div>
     <script src="./utility.js"></script>
     <script src="./index.js"></script>
 </body>
