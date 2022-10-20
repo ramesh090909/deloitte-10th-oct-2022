@@ -1,0 +1,10 @@
+1. create a class "Employee" with following VALUE properties and FUNCTIONAL properties
+	
+	VALUE (fields/data/attributes):	 name, id, basic, da, hra
+	FUNCTIONAL (method): calculateSalary => calculate the total salary of an employee 
+							return type: number (total calculated salary will be returned)
+							arguments: None
+
+2. create some sample objects
+3. calculate the salary of every employee and display
+					
