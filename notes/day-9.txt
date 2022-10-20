@@ -1,0 +1,21 @@
+JS:
+1. JS introduction
+2. data types
+3. operators and operator precedence
+4. control flow statements - if, if..else, while, do...while, switch...case, for, for...of, for...in, break, continue etc.
+5. arrays
+6. objects in JS
+	a. create object using object literal syntax
+	b. create object using constructor function
+	c. create object using class keyword 
+	d. create object using create() method of Object object
+
+7. callback mechanism
+
+
+DOM:
+a. DOM introduction
+b. DOM objects (window, document, console etc.)
+c. DOM methods (createElement, getElementById, getElementsByTagName, getElementsByName, getElementsByClassName, append, appendChild, innerText, innerHTML, remove, replaceChild, replaceChildren etc.)
+
+<element onx="func()"> => function func(){}
