@@ -1,0 +1,19 @@
+1. create some product type objects using constructor function technique (using some hard-coded data)
+2. add those product instances in an array
+3. filter those products from the array with price more than 2000 and display name, price, rating and description of those products in the console
+
+product type:
+	value properties: 
+	1. productId: unique id of the product (number), such as 1, 2, 3 etc.
+	2. productName: name of the product (string) such as, iphone 14
+	3. productCode: code of the product (string), such as, abc-123
+	4. description: code of the product (string), such as, new iphone from apple
+	5. imageUrl: path of the image of the product (string), such as, images/iphone.jpeg or url path
+	6. releaseDate: the date on which product was released in the market (string) such as, 12-03-2022
+	7. price: price of the product (number), such as, 10000
+	8. starRating: rating of the product (number), such as, 3, 3.5, 4.2
+
+	functional property:
+	getInfo:
+		return type: returns a string containig some information about the product (name, price, rating, decsription)
+
