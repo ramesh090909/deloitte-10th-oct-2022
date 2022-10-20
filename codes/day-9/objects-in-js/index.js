@@ -1,32 +1,92 @@
-//2. constructor function syntax
-function person(pName, pId, pSalary) {
-    // console.log(arguments)
-    // var x = 100
+//2015 (ES6) introduced this technique (class, constructor keywords etc.)
+class Person {
 
-    //these data will be stored in the newly created object (thanks to new keyword)
-    this.name = pName
-    this.id = pId
-    this.salary = pSalary
-    this.printInfo = function () {
+    //special method inside the class, whose job is to assign value to the value properties of the class
+    constructor(pName, pId, pSalary) {
+        this.name = pName
+        this.id = pId
+        this.salary = pSalary
+        //this.printInfo = function () { }
+    }
+
+    //method of the class (functiona property)
+    printInfo() {
         return this.name + ' ' + this.id + ' ' + this.salary
     }
 }
+var anilObj = new Person('anil', 1, 1000)
+var sunilObj = new Person('sunil', 2, 2000)
 
-//for global function, object data is stored in
-//a. browser: window
-//b. node js: global
-//this.abcd
-
-//the new keyword creates a new instance/object which will be used by person() function to store object specific data (considering you have used this keyword inside the person() function to access that same object and used some properties to save the argument values). The new keyword returns the reference of the newly created object
-var anilObj = new person('anil', 1, 1000)
-var sunilObj = new person('sunil', 2, 2000)
-
-console.log(sunilObj.name)
-console.log(sunilObj['salary'])
+console.log(anilObj.printInfo())
 console.log(sunilObj.printInfo())
 
-for (var propName in sunilObj) {
-    var propValue = sunilObj[propName]
-    console.log(propName + ':' + propValue)
+//parent or base class
+class Car {
+    constructor(chasis, color, ac) {
+        this.chasisNo = chasis;
+        this.bodyColor = color;
+        this.hasAc = ac;
+    }
+    start() {
+
+    }
+    stop() {
+
+    }
+    accelerate() {
+
+    }
+    putBreak() {
+
+    }
 }
-//can't use for...of loop to iterate through property values of the objects, since the object is not marked as iterable
+//derived or child class
+class Hyundai extends Car {
+    constructor(chasis, color, ac, ssButton, roof) {
+        super(chasis, color, ac)
+        this.startStopButton = ssButton
+        this.sunMonnRoof = roof
+    }
+    startTurboEngine() {
+
+    }
+}
+
+class Kia extends Car {
+    constructor() {
+
+    }
+}
+var hyundaiCreta = new Hyundai('abce1234', 'blue', true, true, true)
+
+class Employee {
+    constructor(name, id, sal) {
+        this.name = name
+        this.id = id
+        this.salary = sal
+    }
+    getInfo() {
+
+    }
+}
+class Developer extends Employee {
+    constructor(name, id, sal, proj) {
+        super(name, id, sal)
+        this.project = proj
+    }
+    doProject() {
+
+    }
+}
+class Hr extends Employee {
+    constructor(name, id, sal, task) {
+        super(name, id, sal)
+        this.task = task
+    }
+    joinEmployee() {
+
+    }
+}
+
+var d = new Developer()
+var hr = new Hr()
