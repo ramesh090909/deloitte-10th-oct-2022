@@ -82,4 +82,3 @@ var isNumberGreaterThanFive = function (num) {
 }
 var greaterThanFiveNumbers = filterValues(numbers, isNumberGreaterThanFive)
 console.log(isNumberGreaterThanFive)
-    * /

@@ -19,9 +19,10 @@ var isEven = function (a) {
 
 filterValues(numbers, isEven)
 
-var names = ['maanasa', 'fatima', 'shravanthi']
+var names = ['maanasa', 'fatima', 'sHravanthi']
 var doesNameHasH = function (anyName) {
-    return anyName.toLocaleLowerCase().indexOf('s') !== -1
+    //sHravanthi=>shravanthi
+    return anyName.toLocaleLowerCase().indexOf('h') !== -1
 }
 //var filteredNames = filterValues(names, doesNameHasH)
 var filteredNames = names.filter(doesNameHasH)
