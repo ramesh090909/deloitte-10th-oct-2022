@@ -11,3 +11,8 @@ here all user-defined tags are used
 HTML: Hyper text markup language
 it is a language to format web page design
 HTML uses pre-defined tags
+
+1. fetch data from an web api application hosted in this site: https://jsonplaceholder.typicode.com/posts
+2. after fetching data (in JSON format), will save in session/local storage (in JSON format itself)
+3. fetch data from there (local/session storage) and convert that JSON data in JS 
+3. display data in an web page
