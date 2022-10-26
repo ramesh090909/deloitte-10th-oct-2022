@@ -17,8 +17,15 @@ class Person {
 var anilObj = new Person('anil', 1, 1000)
 var sunilObj = new Person('sunil', 2, 2000)
 
+<<<<<<< Updated upstream
 console.log(anilObj.printInfo())
 console.log(sunilObj.printInfo())
+=======
+//for global function, object data is stsunilOored in
+//a. browser: window
+//b. node js: global
+//this.abcd
+>>>>>>> Stashed changes
 
 //parent or base class
 class Car {
