@@ -1,0 +1,13 @@
+1. JavaScript and 
+2. jQuery
+3. HTML5 APIs
+4. CSS and CSS3, Bootstrap etc.
+
+
+XML: Extensible markup language
+Language to represent data 
+here all user-defined tags are used 
+
+HTML: Hyper text markup language
+it is a language to format web page design
+HTML uses pre-defined tags

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flights>
+    <flight id="6E6036">
+        <name>Indigo</name>
+        <price>6210</price>
+        <departureTime>02:15pm</departureTime>
+        <arrivalTime>6:15pm</arrivalTime>
+    </flight>
+    <flight id="6E6527">
+        <name>Indigo</name>
+        <price>7790</price>
+        <departureTime>05:15pm</departureTime>
+        <arrivalTime>9:15pm</arrivalTime>
+    </flight>
+</flights>
