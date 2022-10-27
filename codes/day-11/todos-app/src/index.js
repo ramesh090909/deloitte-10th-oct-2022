@@ -1,3 +1,19 @@
+function call() {
+    alert('hello')
+}
+function getData() {
+    var requestObject = new XMLHttpRequest()
+    console.log(requestObject.readyState)
+    requestObject.onreadystatechange = function () {
+        if (requestObject.readyState === 4 && requestObject.status === 200) {
+            var jsonData = requestObject.responseText
+            var todoData = (JSON.parse(jsonData)).slice(0, 10)
+            localStorage.setItem('todos', JSON.stringify(todoData))
+        }
+    }
+    requestObject.open('GET', 'https://jsonplaceholder.typicode.com/todos', true)
+    requestObject.send()
+}
 function fetchAndSaveData() {
     var todosPromise = fetch('https://jsonplaceholder.typicode.com/todos')
     todosPromise.then(
@@ -42,7 +58,8 @@ function loadAndShowData() {
 
     //if the data is NOT there, fetch the data, save it in localstorage, fetch it from localstorage again and convert back to JS array
     if (!todos) {
-        fetchAndSaveData()
+        //fetchAndSaveData()
+        getData()
     }
 
     //based on the number of records generate rows dynamically and append them in the tbody element
