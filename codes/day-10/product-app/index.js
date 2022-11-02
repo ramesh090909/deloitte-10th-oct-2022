@@ -18,12 +18,8 @@ var gardenCart = new Product(2, "Garden Cart", "GDN-0023", "March 18, 2019", "15
 var hammer = new Product(3, "Hammer", "TBX-0048", "May 21, 2016", "Curved claw steel hammer", 8.9, 2, "http://openclipart.org/image/300px/svg_to_png/73/rejon_Hammer.png")
 var saw = new Product(4, "Saw", "TBX-0022", "May 15, 2016", "15-inch steel blade hand saw", 11.55, 3.7, "http://openclipart.org/image/300px/svg_to_png/27070/egore911_saw.png")
 var videoGameController = new Product(5, "Video Game Controller", "GMG-0042", "October 15, 2015", "Standard two-button video game controller", 67, 4, "http://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png")
-
 var products = [leafRake, gardenCart, hammer, saw, videoGameController]
-
 function sortPrducts() {
-
 }
 function filterProductsByPrice(price) {
-
 }
